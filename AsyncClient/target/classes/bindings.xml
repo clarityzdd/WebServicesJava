@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxws:bindings 
+	xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+	wsdlLocation="SimpleService.wsdl"
+	node="wsdl:definitions/wsdl:portType/wsdl:operation[@name='concat']">
+	<jaxws:enableAsyncMapping>true</jaxws:enableAsyncMapping>
+</jaxws:bindings>
